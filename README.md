@@ -62,6 +62,7 @@ Messages from dates May 1 to and including May 15, 2021, were scrapped using the
 
 <br>
 
+### Analysis 1
 
   1. The general trend observed is for the first seven days from May 3 to May 7 the number of messages discussing SHIB and DODGE was less than 10.
   2. The total number of messages discussing SHIB and DODGE from May 1, 2, and 15 are zero.
@@ -78,6 +79,7 @@ Messages from dates May 1 to and including May 15, 2021, were scrapped using the
     <img src="images/plot_hist_without_zero.png" />
   </p>
 
+### Analysis 2
 
   1. The histogram on the sentiment value of each message shows insightful results.
   2. Most messages were of a neutral tone as can be seen in the peak.
