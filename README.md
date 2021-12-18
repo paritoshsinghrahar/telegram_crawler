@@ -65,14 +65,11 @@ Messages from dates May 1 to and including May 15, 2021, were scrapped using the
 
 <br>
 
-  1. The general trend observed is that from May 3 to May 7 the number of messages discussing SHIB and DODGE were less than 10.
-  2. The total number of messages discussing SHIB and DODGE on May 1, 2, and 15 are zero.
-  3. The total number of messages per day peaks on May 10 and then dwindles until May 15.
-  4. Another peak can also be observed on May 8th coming as the second-highest day with messages mentioning SHIB and DODGE.
-  5. The sentiment hits a peak on May 4th and decreases till May 7th.
-  6. Overall the sentiment is positive for the whole duration except for May 7th.
-  7. Thereafter, the sentiment improves and does a middling job at growing until May 14th. 
-  8. However, growth in a positive direction can be noted from May 7th to 14th.
+  1. The general trend observed is that from May 1 to May 7 the number of messages discussing SHIB and DODGE were less than 200.
+  2. The total number of messages per day peaks on May 10 and then dwindles until May 15.
+  3. Another peak can also be observed on May 8th coming as the second-highest day with messages mentioning SHIB and DOGE.
+  4. Overall the sentiment is positive for the whole duration.
+  5. The sentiment value does a middling job. 
 
 <br>
 
