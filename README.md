@@ -14,7 +14,7 @@ M.S. Degree in Computer Science (Artificial Intelligence), University of Souther
     2. plot_hist.png - contains the histogram for summary
     3. plot_hist_without_zero - contains another histogram for summary
 3. requirements.txt - contains package dependencies
-4. readm.md - documentation/summary
+4. README.md - documentation/summary
 5. preprocessing.py - script for preprocessing
 6. sentiment_analysis.py - script for sentiment_analysis
 7. visualization.py - script for visualization
