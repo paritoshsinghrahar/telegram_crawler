@@ -22,7 +22,7 @@ def plot_visu_sec(df):
     df2 = df[df.sentiment != 0]
     fig = px.histogram(df2, x = "sentiment",color_discrete_sequence=['#ffff00'])
     fig.update_layout(
-        title="Sentiment Histogram",
+        title="Sentiment Histogram (- Neutal Values)",
         xaxis_title="Sentiment",
         yaxis_title="Count",
         paper_bgcolor="black",
