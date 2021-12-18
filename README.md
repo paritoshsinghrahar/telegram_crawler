@@ -1,7 +1,7 @@
 # Objective: To scrape data from a Telegram group and do sentiment analysis on crawled data and perform first analysis on it to find insights.
 
 #### Work Submitted By: Paritosh Singh (paritosh@usc.edu) 
-M.S. Student in Computer Science (Artificial Intelligence), University of Southern California
+M.S. Degree in Computer Science (Artificial Intelligence), University of Southern California
 
 ## Structure of Directory:
 
