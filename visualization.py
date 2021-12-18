@@ -33,7 +33,7 @@ def plot_visu_sec(df):
             color='white'
         )
     )
-    fig.write_image("images/plot_hist_with_zero.png")
+    fig.write_image("images/plot_hist_without_zero.png")
 
 
 def plot_visu(df):
