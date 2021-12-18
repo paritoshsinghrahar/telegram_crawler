@@ -1,8 +1,15 @@
+'''
+1. A simple script to generate visualizations from processed code.
+2. Visualizations are generated in plotly.
+3. For better visualizations sentiment range from -1 to +1 is extended to -1000 to +1000.'''
+
+#Libraries
 import argparse
 import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
 
+# Secondary Plots Visualizations (Saves Histogram on Sentiment Value)
 def plot_visu_sec(df):
     fig = px.histogram(df, x = "sentiment",color_discrete_sequence=['#ffff00'])
     fig.update_layout(
@@ -35,10 +42,10 @@ def plot_visu_sec(df):
     )
     fig.write_image("images/plot_hist_without_zero.png")
 
-
+# Plots Visualizations (Saves number of messages per day and the average sentiment per day)
 def plot_visu(df):
     fig = go.Figure(data=[
-        go.Bar(x=df["Date"], y=df["Count"], marker_color = 'mediumspringgreen', name='Count'),
+        go.Bar(x=df["Date"], y=df["Count"], marker_color = 'mediumspringgreen', name='No_of_Messages'),
         go.Scatter(x=df["Date"], y=df["Mean_Sentiment"]*1000,marker_color = 'yellow',name='Avg_Sentiment')
     ])
 
@@ -60,6 +67,7 @@ def plot_visu(df):
     )
     fig.write_image("images/plot.png")
 
+# Data Processing for plots visualizations
 def plot_data_process(df):
     
     sent_mean_df = df.groupby(df.Date).sentiment.mean().to_frame()
@@ -73,6 +81,7 @@ def plot_data_process(df):
     df = pd.merge(sent_mean_df,mess_count_df,on='Date')
     return df
 
+# Main Driver 
 def main():
     
     # Input Filename: 'data/telegram_processed_data.csv'
