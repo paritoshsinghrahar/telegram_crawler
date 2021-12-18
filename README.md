@@ -69,7 +69,7 @@ Messages from dates May 1 to and including May 15, 2021, were scrapped using the
   2. The total number of messages per day peaks on May 10 and then dwindles until May 15.
   3. Another peak can also be observed on May 8th coming as the second-highest day with messages mentioning SHIB and DOGE.
   4. Overall the sentiment is positive for the whole duration.
-  5. The sentiment value does a middling job. 
+  5. The sentiment value does a middling job throughout with no specific pattern.
 
 <br>
 
