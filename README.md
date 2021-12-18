@@ -55,35 +55,46 @@ Messages from dates May 1 to and including May 15, 2021, were scrapped using the
     3. For better visualizations sentiment range from -1 to +1 is extended to -1000 to +1000.
     
 ## Summary
-  
+
   <p align="center">
     <img src="images/plot.png" />
+    <br>
+    Figure 1
   </p>
 
 <br>
 
 ### Analysis 1
 
-  1. The general trend observed is for the first seven days from May 3 to May 7 the number of messages discussing SHIB and DODGE was less than 10.
-  2. The total number of messages discussing SHIB and DODGE from May 1, 2, and 15 are zero.
-  3. The total number of messages peaks on May 10 and then dwindles until May 15.
+  1. The general trend observed is that from May 3 to May 7 the number of messages discussing SHIB and DODGE were less than 10.
+  2. The total number of messages discussing SHIB and DODGE on May 1, 2, and 15 are zero.
+  3. The total number of messages per day peaks on May 10 and then dwindles until May 15.
   4. Another peak can also be observed on May 8th coming as the second-highest day with messages mentioning SHIB and DODGE.
-  5. Overall the sentiment is positive for the whole duration except for May 7th.
-  6. However, the sentiment improves and does a middling job at growing until May 14th. However, growth in a positive direction can be noted from May 7th to 14th.
+  5. The sentiment hits a peak on May 4th and decreases till May 7th.
+  6. Overall the sentiment is positive for the whole duration except for May 7th.
+  7. Thereafter, the sentiment improves and does a middling job at growing until May 14th. 
+  8. However, growth in a positive direction can be noted from May 7th to 14th.
 
 <br>
 
 
 <p align="center">
     <img src="images/plot_hist.png" />
+    <br>
+    Figure 2
+    <br>
+    <br>
+    <br>
     <img src="images/plot_hist_without_zero.png" />
+    <br>
+    Figure 3
   </p>
 
 ### Analysis 2
 
-  1. The histogram on the sentiment value of each message shows insightful results.
-  2. Most messages were of a neutral tone as can be seen in the peak.
-  3. However, Once the neutral values are removed we get a better idea of distribution.
+  1. The histogram based of the sentiment value of each message shows insightful results.
+  2. Most messages were of a neutral tone as can be seen in the peak in the Figure 2.
+  3. However, Once the neutral values are removed we get a better idea of distribution (Figure 3).
   4. Most other messages are evenly distributed around two peaks at -0.5 and 0.5.
   5. Positive sentiment messages have a higher peak than negative messages thus displaying the overall positive sentiment for most of the time series.
 
