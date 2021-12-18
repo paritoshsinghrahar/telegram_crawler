@@ -36,23 +36,22 @@ Data was exported from a Telegram Group: https://t.me/CryptoComOfficial
 
 Messages from dates May 1 to and including May 15, 2021, were scrapped using the official Telegram API.
 
-# Code Description:
+## Code Description:
 
 ## Pre-Processing
-    1. The JSON file is processed to collect raw data and store it.
-    2. raw data is converted to a data frame. and processed to filter non-English characters.
-    3. Messages containing SHIB and DODGE are kept.
+1. The JSON file is processed to collect raw data and store it.
+2. raw data is converted to a data frame. and processed to filter non-English characters.
+3. Messages containing SHIB and DODGE are kept.
 
 ## Sentiment Analysis
-    1. Sentiment Analysis is done using the nltk library.
-    2. The built-in, pretrained sentiment analyzer called VADER (Valence Aware Dictionary and sEntiment Reasoner) was utilized for sentiment analysis. VADER is tuned for social media linguistics.
-    3. VADER is the preferred choice for exploratory analysis of the dataset.
-    4. Since the goal of the project is to perform the first analysis on the dataset, nltk was chosen for quick results.
+1. Sentiment Analysis is done using the nltk library.
+2. The built-in, pretrained sentiment analyzer called VADER (Valence Aware Dictionary and sEntiment Reasoner) was utilized for sentiment analysis. VADER is tuned for social media linguistics.
+3. Since the goal of the project is to perform first analysis on the dataset, nltk(VADER) is chosen for quick and preliminary exploratory analysis.
     
 ## Visualization
-    1. A simple script to generate visualizations from processed code. 
-    2. Visualizations are generated in plotly.
-    3. For better visualizations sentiment range from -1 to +1 is extended to -1000 to +1000.
+1. A simple script to generate visualizations from processed code. 
+2. Visualizations are generated in plotly.
+3. For better visualizations sentiment range from -1 to +1 is extended to -1000 to +1000.
     
 ## Summary
 
