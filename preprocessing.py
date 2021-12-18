@@ -33,7 +33,7 @@ def lowercase_string(x):
 def process_dataframe(df):
     df['Text'] = df['Text'].apply(english_char_filter)
     df['Text'] = df['Text'].apply(lowercase_string)
-    df = df[df['Text'].str.contains("dodge|shib")==True]
+    df = df[df['Text'].str.contains("doge|shib")==True]
     df = df.reset_index(drop=True)
     return df
     
