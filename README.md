@@ -39,7 +39,7 @@ Messages from dates May 1 to and including May 15, 2021, were scrapped using the
 ## Code Description:
 
 ## Pre-Processing
-1. The JSON file is processed to collect raw data and store it.
+1. The JSON file is processed to extract raw data and store it.
 2. Raw data is converted to a data frame and processed to filter non-English characters.
 3. Messages containing SHIB and DODGE are kept.
 
