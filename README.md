@@ -40,7 +40,7 @@ Messages from dates May 1 to and including May 15, 2021, were scrapped using the
 
 ## Pre-Processing
 1. The JSON file is processed to collect raw data and store it.
-2. raw data is converted to a data frame. and processed to filter non-English characters.
+2. Raw data is converted to a data frame and processed to filter non-English characters.
 3. Messages containing SHIB and DODGE are kept.
 
 ## Sentiment Analysis
@@ -55,6 +55,8 @@ Messages from dates May 1 to and including May 15, 2021, were scrapped using the
     
 ## Summary
 
+### Analysis 1
+
   <p align="center">
     <img src="images/plot.png" />
     <br>
@@ -62,8 +64,6 @@ Messages from dates May 1 to and including May 15, 2021, were scrapped using the
   </p>
 
 <br>
-
-### Analysis 1
 
   1. The general trend observed is that from May 3 to May 7 the number of messages discussing SHIB and DODGE were less than 10.
   2. The total number of messages discussing SHIB and DODGE on May 1, 2, and 15 are zero.
@@ -76,6 +76,7 @@ Messages from dates May 1 to and including May 15, 2021, were scrapped using the
 
 <br>
 
+### Analysis 2
 
 <p align="center">
     <img src="images/plot_hist.png" />
@@ -89,12 +90,11 @@ Messages from dates May 1 to and including May 15, 2021, were scrapped using the
     Figure 3
   </p>
 
-### Analysis 2
 
   1. The histogram based of the sentiment value of each message shows insightful results.
   2. Most messages were of a neutral tone as can be seen in the peak in the Figure 2.
   3. However, Once the neutral values are removed we get a better idea of distribution (Figure 3).
-  4. Most other messages are evenly distributed around two peaks at -0.5 and 0.5.
+  4. Most other messages are evenly(approximately) distributed around two peaks at -0.5 and 0.5.
   5. Positive sentiment messages have a higher peak than negative messages thus displaying the overall positive sentiment for most of the time series.
 
 
