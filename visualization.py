@@ -45,6 +45,9 @@ def plot_visu(df):
     fig.update_layout(
         title="Sentiment Analysis",
         xaxis_title="Day",
+        xaxis=dict(
+        title='Day',
+        tickmode='linear'),
         yaxis_title="Value",
         legend_title="Legend",
         paper_bgcolor="black",
